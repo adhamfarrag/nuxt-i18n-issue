@@ -1,4 +1,8 @@
 export default {
+  ssr: false,
+
+  target: 'static',
+
   head: {
     title: 'nuxt-i18n-issue',
     htmlAttrs: {
